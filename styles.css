@@ -10,10 +10,29 @@
     /* Fond général très sombre */
     --color-bg-card: #1a1a1a;
     /* Fond des cartes */
+    --color-bg-light: #ffffff;
+    /* Fond blanc pour cartes claires */
+    --color-bg-warm: #202020;
+    /* Fond chaud clair */
+    --color-bg-info: #202020;
+    /* Fond bleu clair pour infos */
+    --color-bg-warning: #202020;
+    /* Fond orange clair pour avertissements */
+    --color-bg-success: #202020;
+    /* Fond vert clair pour succès */
+    --color-bg-gray-light: #f5f5f5;
+    /* Fond gris très clair */
+    --color-bg-dark-subtle: #101010;
+    /* Fond sombre subtil */
+
     --color-text: #f0f0f0;
     /* Texte principal blanc cassé */
     --color-text-muted: #cccccc;
     /* Texte secondaire */
+    --color-text-dark: #333333;
+    /* Texte sombre pour fonds clairs */
+    --color-text-light: #d8d8d8;
+    /* Texte clair pour fonds sombres */
 
     --color-wood: #8B4513;
     /* Marron bois (SaddleBrown) */
@@ -27,12 +46,25 @@
     --color-highlight: #ffebb5;
     /* Jaune très clair pour les reflets */
 
+    --color-primary: #8B4513;
+    /* Alias pour color-wood */
+    --color-primary-dark: #5e2f0d;
+    /* Alias pour color-wood-dark */
+    --color-secondary: #3d5a4f;
+    /* Vert foncé secondaire */
+    --color-gray: #999999;
+    /* Gris moyen */
+    --color-warm: #363636;
+    /* Alias pour bg-warm */
+
     --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --transition: all 0.3s ease;
 
     /* Ombres */
     --shadow-soft: 0 4px 6px rgba(0, 0, 0, 0.3);
     --shadow-strong: 0 10px 20px rgba(0, 0, 0, 0.5);
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -715,4 +747,105 @@ body {
     .about-content {
         grid-template-columns: 1fr;
     }
+}
+
+/* ==========================================
+   UTILITY CLASSES FOR BACKGROUNDS & TEXT
+   ========================================== */
+
+/* Background utilities */
+.bg-light {
+    background: var(--color-bg-light) !important;
+}
+
+.bg-warm {
+    background: var(--color-bg-warm) !important;
+}
+
+.bg-info {
+    background: var(--color-bg-info) !important;
+}
+
+.bg-warning {
+    background: var(--color-bg-warning) !important;
+}
+
+.bg-success {
+    background: var(--color-bg-success) !important;
+}
+
+.bg-gray-light {
+    background: var(--color-bg-gray-light) !important;
+}
+
+.bg-dark-subtle {
+    background: var(--color-bg-dark-subtle) !important;
+}
+
+/* Text color utilities */
+.text-dark {
+    color: var(--color-text-dark) !important;
+}
+
+.text-light {
+    color: var(--color-text-light) !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-muted {
+    color: var(--color-text-muted) !important;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.text-accent {
+    color: var(--color-accent) !important;
+}
+
+/* Combined card styles for light backgrounds */
+.card-light {
+    background: var(--color-bg-light);
+    color: var(--color-text-dark);
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+}
+
+.card-light h3,
+.card-light h4 {
+    color: var(--color-primary);
+}
+
+.card-light p,
+.card-light ul,
+.card-light li {
+    color: var(--color-text-dark);
+}
+
+/* Info boxes */
+.info-box {
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    margin-top: 12px;
+}
+
+.info-box-dark {
+    background: var(--color-bg-dark-subtle);
+    color: var(--color-text);
+}
+
+.info-box-warning {
+    background: var(--color-bg-warning);
+    color: var(--color-text-dark);
+}
+
+.info-box-success {
+    background: var(--color-bg-success);
+    color: var(--color-text-dark);
 }
