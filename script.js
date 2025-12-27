@@ -1,142 +1,144 @@
-// script.js
+/* script.js */
 
 // ==========================================
-// NAVIGATION MOBILE
+// COMPOSANTS HTML (Header & Footer)
 // ==========================================
 
-const burger = document.querySelector('.burger');
-const navMenu = document.querySelector('.nav-menu');
-const navLinks = document.querySelectorAll('.nav-link');
+const HEADER_HTML = `
+<nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="logo">CHR M <span>Formation</span></a>
+        <ul class="nav-menu">
+            <li><a href="index.html#accueil" class="nav-link">Accueil</a></li>
+            <li><a href="index.html#presentation" class="nav-link">Présentation</a></li>
+            <li><a href="index.html#formations" class="nav-link">Formations</a></li>
+            <li><a href="index.html#team-building" class="nav-link">Team Building</a></li>
+            <li><a href="index.html#actualites" class="nav-link">Actualités</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+`;
 
-// Toggle menu mobile
-burger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
+const FOOTER_HTML = `
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>CHR M Formation</h3>
+                <p>Expert en formation pour les professionnels des Cafés, Hôtels et Restaurants.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html#formations">Nos formations</a></li>
+                    <li><a href="index.html#team-building">Team Building</a></li>
+                    <li><a href="index.html#actualites">Actualités</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📧 contact@chrm-formation.fr</p>
+                <p>📞 XX XX XX XX XX</p>
+                <p>📍 Finistère (29), Bretagne</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 CHR M Formation. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+`;
+
+// ==========================================
+// CHARGEMENT ET INITIALISATION
+// ==========================================
+
+document.addEventListener('DOMContentLoaded', () => {
+    loadComponents();
+    initInteractions();
     
-    // Animation du burger
-    burger.classList.toggle('active');
+    // Si on est sur une page spécifique, on active l'onglet navigation
+    highlightActiveNavLink();
 });
 
-// Fermer le menu en cliquant sur un lien
-navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        navMenu.classList.remove('active');
-        burger.classList.remove('active');
-    });
-});
+function loadComponents() {
+    const headerPlaceholder = document.getElementById('header-placeholder');
+    const footerPlaceholder = document.getElementById('footer-placeholder');
 
-// ==========================================
-// ACTIVE LINK AU SCROLL
-// ==========================================
-
-window.addEventListener('scroll', () => {
-    let current = '';
-    const sections = document.querySelectorAll('section');
-    
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        
-        if (pageYOffset >= sectionTop - 200) {
-            current = section.getAttribute('id');
-        }
-    });
-
-    navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href').substring(1) === current) {
-            link.classList.add('active');
-        }
-    });
-});
-
-// ==========================================
-// FORMULAIRE DE CONTACT
-// ==========================================
-
-const contactForm = document.getElementById('contact-form');
-const formMessage = document.getElementById('form-message');
-
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // Récupération des valeurs du formulaire
-    const objet = document.getElementById('objet').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-    
-    // Validation
-    if (!objet || !email || !message) {
-        showMessage('Veuillez remplir tous les champs obligatoires.', 'error');
-        return;
+    if (headerPlaceholder) {
+        headerPlaceholder.innerHTML = HEADER_HTML;
+    } else {
+        // Fallback si la nav existe déjà en dur (pour transition)
+        // console.log("Header placeholder not found, skipping injection.");
     }
-    
-    // Création du mailto (alternative sans backend)
-    const mailtoLink = `mailto:contact@eskemm-chr.fr?subject=${encodeURIComponent(objet)}&body=${encodeURIComponent(message + '\n\nEmail de contact: ' + email)}`;
-    
-    // Ouvrir le client email
-    window.location.href = mailtoLink;
-    
-    // Afficher un message de succès
-    showMessage('Votre client email va s\'ouvrir. Merci de votre message !', 'success');
-    
-    // Réinitialiser le formulaire
-    contactForm.reset();
-});
 
-function showMessage(text, type) {
-    formMessage.textContent = text;
-    formMessage.className = `form-message ${type}`;
-    formMessage.style.display = 'block';
-    
-    // Masquer le message après 5 secondes
-    setTimeout(() => {
-        formMessage.style.display = 'none';
-    }, 5000);
+    if (footerPlaceholder) {
+        footerPlaceholder.innerHTML = FOOTER_HTML;
+    }
 }
 
-// ==========================================
-// SMOOTH SCROLL (fallback pour anciens navigateurs)
-// ==========================================
+function initInteractions() {
+    // Menu Burger
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-link');
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        const href = this.getAttribute('href');
-        
-        if (href !== '#' && href !== '') {
-            e.preventDefault();
-            const target = document.querySelector(href);
-            
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        }
-    });
-});
+    if (burger && nav) {
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            burger.classList.toggle('toggle');
+        });
 
-// ==========================================
-// ACCORDION POUR LES PROGRAMMES
-// ==========================================
-
-document.addEventListener('DOMContentLoaded', function() {
-    const accordionHeaders = document.querySelectorAll('.accordion-header');
-    
-    accordionHeaders.forEach(header => {
-        header.addEventListener('click', function() {
-            const accordionItem = this.parentElement;
-            const isActive = accordionItem.classList.contains('active');
-            
-            // Fermer tous les accordéons
-            document.querySelectorAll('.accordion-item').forEach(item => {
-                item.classList.remove('active');
+        // Fermer le menu au clic sur un lien
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+                burger.classList.remove('toggle');
             });
+        });
+    }
+
+    // Accordéons (Programme)
+    const accordions = document.querySelectorAll('.accordion-header');
+    accordions.forEach(acc => {
+        acc.addEventListener('click', () => {
+            const content = acc.nextElementSibling;
+            const icon = acc.querySelector('.accordion-icon');
             
-            // Ouvrir celui cliqué si il était fermé
-            if (!isActive) {
-                accordionItem.classList.add('active');
+            // Toggle active class
+            content.classList.toggle('active');
+            
+            // Change icon
+            if (content.classList.contains('active')) {
+                icon.textContent = '-';
+            } else {
+                icon.textContent = '+';
             }
         });
     });
-});
+
+    // Gestion du formulaire de contact (Simulation)
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const messageDiv = document.getElementById('form-message');
+            messageDiv.textContent = "Merci ! Votre message a bien été envoyé. Nous vous répondrons sous 24h.";
+            messageDiv.style.color = "#FFD700"; // Jaune
+            messageDiv.style.marginTop = "10px";
+            contactForm.reset();
+        });
+    }
+}
+
+function highlightActiveNavLink() {
+    // Logique simple pour mettre en surbrillance selon l'URL ou le hash
+    // Ici on peut laisser par défaut ou améliorer plus tard
+}
