@@ -1388,7 +1388,50 @@ body {
 
 /* Alternance des couleurs */
 .section-wood {
-    background: #893102;
+    position: relative;
+    background-image: url('images/wood.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Effet parallaxe */
+}
+
+/* Overlay sombre pour lisibilité du texte */
+.section-wood::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    /* Filtre noir à 65% */
+    z-index: 0;
+}
+
+/* S'assurer que le contenu est au-dessus de l'overlay */
+.section-wood .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Texte blanc pour contraste */
+.section-wood,
+.section-wood h2,
+.section-wood h3,
+.section-wood p,
+.section-wood .section-title {
+    color: white;
+}
+
+.section-wood .section-title::after {
+    background: var(--color-accent);
+    /* Garde la ligne dorée */
+}
+
+/* Ajustement pour le bouton dans les sections bois */
+.section-wood .btn-primary {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .section-light {
@@ -1401,7 +1444,7 @@ body {
 }
 
 .section-dark .section-title {
-    color: 0e0e0e;
+    color: #d6d6d6;
 }
 
 /* Divider prend la couleur de la section suivante */
