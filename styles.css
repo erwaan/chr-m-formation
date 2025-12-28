@@ -321,42 +321,7 @@ body {
    SECTION FORMATIONS (GRID)
    ========================================== */
 
-/* ==========================================
-   ICÔNES IMAGES DANS LES CARDS
-   ========================================== */
-
-.formation-icon-img {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 20px;
-    overflow: hidden;
-    border-radius: 50%;
-    /* Cercle */
-    border: 3px solid var(--color-wood);
-    background-color: #222;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.formation-icon-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Recadrage intelligent */
-    display: block;
-}
-
-/* Alternative : forme carrée avec coins arrondis */
-.formation-icon-img.square {
-    border-radius: 10px;
-}
-
-/* Alternative : icône plus grande */
-.formation-icon-img.large {
-    width: 150px;
-    height: 150px;
-}
+/* Styles pour .formation-icon-img déplacés vers la section "ICÔNES IMAGES DANS LES CARDS FORMATION" (ligne ~1358) */
 
 .formations-grid {
     display: grid;
@@ -365,22 +330,118 @@ body {
 }
 
 .formation-card {
-    background-color: var(--color-bg-card);
-    padding: 30px;
-    border-radius: 6px;
-    border: 1px solid #333;
-    border-top: 4px solid var(--color-wood);
-    text-align: center;
+    position: relative;
+    height: 400px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
     transition: var(--transition);
     box-shadow: var(--shadow-soft);
 }
 
 .formation-card:hover {
-    transform: translateY(-5px);
-    border-top-color: var(--color-accent);
+    transform: translateY(-10px);
     box-shadow: var(--shadow-strong);
 }
 
+/* Image de fond de la carte */
+.formation-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+}
+
+.formation-card:hover .formation-bg {
+    transform: scale(1.1);
+}
+
+/* Overlay sombre sur l'image */
+.formation-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.3) 0%,
+            rgba(0, 0, 0, 0.7) 100%);
+    transition: background 0.3s ease;
+}
+
+.formation-card:hover .formation-bg::after {
+    background: linear-gradient(to bottom,
+            rgba(139, 69, 19, 0.4) 0%,
+            rgba(0, 0, 0, 0.85) 100%);
+}
+
+/* Contenu de la carte */
+.formation-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    color: white;
+}
+
+.formation-card h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.formation-card p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Description détaillée (cachée par défaut) */
+.formation-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    margin-bottom: 15px;
+}
+
+.formation-card:hover .formation-details {
+    max-height: 200px;
+}
+
+.formation-details p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Bouton "En savoir plus" */
+.formation-card .btn {
+    align-self: flex-start;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.formation-card:hover .btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ==========================================
+   ANCIENS STYLES (pour compatibilité)
+   ========================================== */
+
+/* Suppression de l'ancien style d'icône emoji */
 .formation-icon {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -399,42 +460,7 @@ body {
     margin-bottom: 25px;
 }
 
-/* ==========================================
-   ICÔNES IMAGES DANS LES CARDS
-   ========================================== */
-
-.formation-icon-img {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto 20px;
-    overflow: hidden;
-    border-radius: 50%;
-    /* Cercle */
-    border: 3px solid var(--color-wood);
-    background-color: #222;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.formation-icon-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Recadrage intelligent */
-    display: block;
-}
-
-/* Alternative : forme carrée avec coins arrondis */
-.formation-icon-img.square {
-    border-radius: 10px;
-}
-
-/* Alternative : icône plus grande */
-.formation-icon-img.large {
-    width: 150px;
-    height: 150px;
-}
+/* SUPPRIMÉ - Définition dupliquée déplacée plus bas */
 
 
 /* ==========================================
@@ -1388,33 +1414,45 @@ body {
 }
 
 /* ============================================
-   ICÔNES IMAGES
+   ICÔNES IMAGES DANS LES CARDS FORMATION
    ============================================ */
 .formation-icon-img {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid var(--color-wood);
+    background-color: #222;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
-    border-radius: 50%;
-    padding: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .formation-icon-img img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    filter: brightness(0) invert(1);
-    /* Rend l'icône blanche */
+    object-fit: cover;
+    display: block;
 }
 
+/* Effet hover sur les cartes */
 .formation-card:hover .formation-icon-img {
-    transform: scale(1.1) rotate(5deg);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(139, 69, 19, 0.3);
+    border-color: var(--color-accent);
+}
+
+/* Variantes */
+.formation-icon-img.square {
+    border-radius: 10px;
+}
+
+.formation-icon-img.large {
+    width: 150px;
+    height: 150px;
 }
 
 /* ============================================
