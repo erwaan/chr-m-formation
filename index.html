@@ -12,20 +12,28 @@
     <!-- Navigation -->
     <div id="header-placeholder"></div>
 
-    <!-- Section Accueil -->
+    <!-- Section Accueil avec Carrousel -->
     <section id="accueil" class="hero">
+        <!-- Carrousel d'images en arrière-plan -->
+        <div class="hero-carousel">
+            <div class="carousel-slide active" style="background-image: url('images/carte.jpg');"></div>
+            <div class="carousel-slide" style="background-image: url('images/tables.jpg');"></div>
+            <!-- <div class="carousel-slide" style="background-image: url('images/hero3.jpg');"></div> -->
+            <!-- <div class="carousel-slide" style="background-image: url('images/hero4.jpg');"></div> -->
+        </div>
+
         <div class="hero-overlay">
             <div class="container">
                 <h1 class="hero-title">CHR M Formation</h1>
                 <p class="hero-subtitle">Expérience au service des Cafés, Hôtels, Restaurants.<br>Des formations qui
                     mettent l'échange, la convivialité et le professionnalisme au cœur des métiers.</p>
-                <a href="#contact" class="btn btn-primary">Nous contacter</a>
+                <a href="#contact" class="btn btn-primary btn-wood">Nous contacter</a>
             </div>
         </div>
     </section>
 
     <!-- Section Présentation -->
-    <section id="presentation" class="section">
+    <section id="presentation" class="section section-wood">
         <div class="container">
             <h2 class="section-title">Présentation</h2>
             <div class="about-content">
@@ -52,92 +60,95 @@
                 </div>
             </div>
         </div>
+        <div class="section-divider section-divider-right"></div>
     </section>
 
     <!-- Section Formations -->
-    <section id="formations" class="section">
+    <section id="formations" class="section section-dark">
         <div class="container">
             <h2 class="section-title">Les formations</h2>
             <div class="formations-grid">
                 <!-- Formation 1 -->
-                <div class="formation-card">
-                    <div class="formation-icon">📋</div>
+                <div class="formation-card fade-in-card">
+                    <div class="formation-icon-img">
+                        <img src="images/f1.jpg" alt="Hygiène alimentaire">
+                    </div>
                     <h3>Hygiène alimentaire</h3>
                     <p>Formation initiale en Hygiène Alimentaire (14h)</p>
                     <a href="f1.html" class="btn btn-secondary">En savoir plus</a>
                 </div>
 
                 <!-- Formation 2 -->
-                <div class="formation-card">
-                    <div class="formation-icon">🔄</div>
+                <div class="formation-card fade-in-card">
+                    <div class="formation-icon-img">
+                        <img src="images/f1.jpg" alt="Hygiène alimentaire MAJ">
+                    </div>
                     <h3>Hygiène alimentaire</h3>
                     <p>Formation mise à jour/rappel (7h)</p>
                     <a href="f2.html" class="btn btn-secondary">En savoir plus</a>
                 </div>
 
                 <!-- Formation 3 (Biérologie) -->
-                <div class="formation-card">
-                    <div class="formation-icon">🍺</div>
+                <div class="formation-card fade-in-card">
+                    <div class="formation-icon-img">
+                        <img src="images/f1.jpg" alt="Biérologie">
+                    </div>
                     <h3>Initiation bièrologie</h3>
                     <p>Découverte et dégustation</p>
                     <a href="f3.html" class="btn btn-secondary">En savoir plus</a>
                 </div>
 
                 <!-- Formation 4 (Management) -->
-                <div class="formation-card">
-                    <div class="formation-icon">👥</div>
+                <div class="formation-card fade-in-card">
+                    <div class="formation-icon-img">
+                        <img src="images/f1.jpg" alt="Management">
+                    </div>
                     <h3>Management d'équipe</h3>
                     <p>Management spécifique CHR</p>
                     <a href="f4.html" class="btn btn-secondary">En savoir plus</a>
                 </div>
 
-
-
                 <!-- Formation 5 (Permis de Former Initiale) -->
-                <div class="formation-card">
-                    <div class="formation-icon">🎓</div>
+                <div class="formation-card fade-in-card">
+                    <div class="formation-icon-img">
+                        <img src="images/f1.jpg" alt="Permis de former">
+                    </div>
                     <h3>Permis de Former</h3>
                     <p>Formation initiale obligatoire (14h)</p>
                     <a href="f5.html" class="btn btn-secondary">En savoir plus</a>
                 </div>
 
                 <!-- Formation 6 (Permis de Former MAJ) -->
-                <div class="formation-card">
-                    <div class="formation-icon">🎓</div>
+                <div class="formation-card fade-in-card">
+                    <div class="formation-icon-img">
+                        <img src="images/f1.jpg" alt="Permis de former MAJ">
+                    </div>
                     <h3>Permis de Former</h3>
                     <p>Mise à jour Permis de former (7h)</p>
                     <a href="f6.html" class="btn btn-secondary">En savoir plus</a>
                 </div>
             </div>
         </div>
+        <div class="section-divider section-divider-left"></div>
     </section>
 
-    <!-- Modal Formation 1 -->
-    <!-- Les Modals ont été supprimées car on utilise désormais des pages dédiées (f1.html, etc.) -->
     <!-- Section Team Building -->
-    <section id="team-building" class="section">
+    <section id="team-building" class="section section-wood">
         <div class="container">
             <h2 class="section-title">Team Building</h2>
             <div class="formations-grid">
                 <!-- Team Building 1 - Biérologie -->
-                <div class="formation-card">
-                    <div class="formation-icon">🍺</div>
+                <div class="formation-card fade-in-card">
+                    <div class="formation-icon-img">
+                        <img src="images/f1.jpg" alt="Team Building Biérologie">
+                    </div>
                     <h3>Biérologie</h3>
                     <p>Afterwork convivial et enrichissant (2-4h)</p>
                     <a href="tb1.html" class="btn btn-secondary">En savoir plus</a>
                 </div>
-
-                <!-- Team Building 2 - À venir (exemple) -->
-                <!-- Décommentez quand vous aurez un nouveau team building
-            <div class="formation-card">
-                <div class="formation-icon">🎯</div>
-                <h3>Challenge cuisine</h3>
-                <p>Défi culinaire par équipes (3h)</p>
-                <a href="tb2.html" class="btn btn-secondary">En savoir plus</a>
-            </div>
-            -->
             </div>
         </div>
+        <div class="section-divider section-divider-right"></div>
     </section>
 
     <!-- Section Actualités -->
@@ -145,10 +156,8 @@
         <div class="container">
             <h2 class="section-title">Actualités</h2>
             <div class="actualites-grid">
-                <!-- MODIFIABLE : Ajoutez vos actualités ici -->
-
                 <!-- Actualité 1 -->
-                <article class="actualite-card">
+                <article class="actualite-card fade-in-card">
                     <div class="actualite-date">15 Janvier 2025</div>
                     <h3>Titre de l'actualité 1</h3>
                     <p>
@@ -158,7 +167,7 @@
                 </article>
 
                 <!-- Actualité 2 -->
-                <article class="actualite-card">
+                <article class="actualite-card fade-in-card">
                     <div class="actualite-date">10 Janvier 2025</div>
                     <h3>Titre de l'actualité 2</h3>
                     <p>
@@ -168,7 +177,7 @@
                 </article>
 
                 <!-- Actualité 3 -->
-                <article class="actualite-card">
+                <article class="actualite-card fade-in-card">
                     <div class="actualite-date">5 Janvier 2025</div>
                     <h3>Titre de l'actualité 3</h3>
                     <p>
@@ -181,7 +190,7 @@
     </section>
 
     <!-- Section Contact -->
-    <section id="contact" class="section">
+    <section id="contact" class="section section-wood">
         <div class="container">
             <h2 class="section-title">Contact</h2>
             <div class="contact-content">

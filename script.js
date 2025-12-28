@@ -63,7 +63,7 @@ const FOOTER_HTML = `
 document.addEventListener('DOMContentLoaded', () => {
     loadComponents();
     initInteractions();
-    
+
     // Si on est sur une page spécifique, on active l'onglet navigation
     highlightActiveNavLink();
 });
@@ -111,10 +111,10 @@ function initInteractions() {
         acc.addEventListener('click', () => {
             const content = acc.nextElementSibling;
             const icon = acc.querySelector('.accordion-icon');
-            
+
             // Toggle active class
             content.classList.toggle('active');
-            
+
             // Change icon
             if (content.classList.contains('active')) {
                 icon.textContent = '-';
@@ -142,3 +142,51 @@ function highlightActiveNavLink() {
     // Logique simple pour mettre en surbrillance selon l'URL ou le hash
     // Ici on peut laisser par défaut ou améliorer plus tard
 }
+
+
+// ============================================
+// CARROUSEL HERO
+// ============================================
+function initHeroCarousel() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentSlide = 0;
+
+    if (slides.length === 0) return;
+
+    setInterval(() => {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+    }, 5000); // Change toutes les 5 secondes
+}
+
+// ============================================
+// ANIMATIONS AU SCROLL
+// ============================================
+function initScrollAnimations() {
+    const cards = document.querySelectorAll('.fade-in-card');
+
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    cards.forEach(card => observer.observe(card));
+}
+
+// ============================================
+// INITIALISATION
+// ============================================
+document.addEventListener('DOMContentLoaded', () => {
+    initHeroCarousel();
+    initScrollAnimations();
+});
