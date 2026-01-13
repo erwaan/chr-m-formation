@@ -7,7 +7,9 @@
 const HEADER_HTML = `
 <nav class="navbar">
     <div class="container">
-        <a href="index.html" class="logo">CHR M <span>Formation</span></a>
+        <a href="index.html" class="logo">
+            <img src="images/logo-chr.jpg" alt="CHR M Formation" class="logo-img">
+        </a>
         <ul class="nav-menu">
             <li><a href="index.html#accueil" class="nav-link">Accueil</a></li>
             <li><a href="index.html#presentation" class="nav-link">Présentation</a></li>
@@ -24,6 +26,7 @@ const HEADER_HTML = `
     </div>
 </nav>
 `;
+
 
 const FOOTER_HTML = `
 <footer class="footer">
@@ -44,7 +47,7 @@ const FOOTER_HTML = `
             </div>
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p>📧 contact@chrm-formation.fr</p>
+                <p>📧 chr.m.formation@gmail.com</p>
                 <p>📞 XX XX XX XX XX</p>
                 <p>📍 Finistère (29), Bretagne</p>
             </div>
@@ -54,6 +57,9 @@ const FOOTER_HTML = `
         </div>
     </div>
 </footer>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Allura&display=swap" rel="stylesheet">
+
+
 `;
 
 // ==========================================

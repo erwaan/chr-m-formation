@@ -57,7 +57,7 @@
     --color-warm: #363636;
     /* Alias pour bg-warm */
 
-    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-primary: 'Playfair Display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --transition: all 0.3s ease;
 
     /* Ombres */
@@ -201,6 +201,13 @@ body {
     text-decoration: none;
 }
 
+.logo-img {
+    height: 70px; /* ajuste selon ton header */
+    width: auto;
+    display: block;
+}
+
+
 .logo span {
     color: var(--color-accent);
 }
@@ -292,6 +299,28 @@ body {
     margin-right: auto;
 }
 
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-logo {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-logo {
+        max-width: 280px;
+    }
+}
+
 /* ==========================================
    SECTION PRÉSENTATION
    ========================================== */
@@ -331,13 +360,15 @@ body {
 
 .formation-card {
     position: relative;
-    height: 400px;
+    height: 250px;
+    border: 3px solid #a7a408a6;
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
     transition: var(--transition);
     box-shadow: var(--shadow-soft);
 }
+
 
 .formation-card:hover {
     transform: translateY(-10px);
@@ -1377,12 +1408,12 @@ body {
 }
 
 .section-divider-right::before {
-    transform: skewY(-2deg);
+    transform: skewY(-5deg);
     transform-origin: bottom right;
 }
 
 .section-divider-left::before {
-    transform: skewY(2deg);
+    transform: skewY(4deg);
     transform-origin: bottom left;
 }
 
