@@ -48,12 +48,11 @@ const FOOTER_HTML = `
             <div class="footer-section">
                 <h3>Contact</h3>
                 <p>📧 chr.m.formation@gmail.com</p>
-                <p>📞 XX XX XX XX XX</p>
                 <p>📍 Finistère (29), Bretagne</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 CHR M Formation. Tous droits réservés.</p>
+            <p>&copy; 2026 CHR M Formation. Tous droits réservés.</p>
         </div>
     </div>
 </footer>
