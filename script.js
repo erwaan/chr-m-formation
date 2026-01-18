@@ -27,7 +27,6 @@ const HEADER_HTML = `
 </nav>
 `;
 
-
 const FOOTER_HTML = `
 <footer class="footer">
     <div class="container">
@@ -57,8 +56,6 @@ const FOOTER_HTML = `
     </div>
 </footer>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Allura&display=swap" rel="stylesheet">
-
-
 `;
 
 // ==========================================
@@ -68,9 +65,10 @@ const FOOTER_HTML = `
 document.addEventListener('DOMContentLoaded', () => {
     loadComponents();
     initInteractions();
-
-    // Si on est sur une page spécifique, on active l'onglet navigation
+    initHeroCarousel();
+    initScrollAnimations();
     highlightActiveNavLink();
+    handleFormspreeSuccess();
 });
 
 function loadComponents() {
@@ -79,9 +77,6 @@ function loadComponents() {
 
     if (headerPlaceholder) {
         headerPlaceholder.innerHTML = HEADER_HTML;
-    } else {
-        // Fallback si la nav existe déjà en dur (pour transition)
-        // console.log("Header placeholder not found, skipping injection.");
     }
 
     if (footerPlaceholder) {
@@ -129,25 +124,70 @@ function initInteractions() {
         });
     });
 
-    // Gestion du formulaire de contact (Simulation)
+    // Gestion du formulaire de contact avec Formspree
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const messageDiv = document.getElementById('form-message');
-            messageDiv.textContent = "Merci ! Votre message a bien été envoyé. Nous vous répondrons sous 24h.";
-            messageDiv.style.color = "#FFD700"; // Jaune
-            messageDiv.style.marginTop = "10px";
-            contactForm.reset();
+        contactForm.addEventListener('submit', function(e) {
+            const formMessage = document.getElementById('form-message');
+            
+            // Message de chargement
+            formMessage.textContent = 'Envoi en cours...';
+            formMessage.style.display = 'block';
+            formMessage.style.color = '#FFA500';
+            formMessage.style.padding = '10px';
+            formMessage.style.marginTop = '15px';
+            formMessage.style.borderRadius = '4px';
+            formMessage.style.backgroundColor = 'rgba(255, 165, 0, 0.1)';
+            formMessage.style.textAlign = 'center';
+            formMessage.style.fontWeight = '500';
         });
+    }
+}
+
+function handleFormspreeSuccess() {
+    // Gestion du retour après envoi Formspree
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('success') === 'true') {
+        const formMessage = document.getElementById('form-message');
+        if (formMessage) {
+            formMessage.textContent = 'Message envoyé avec succès ! Nous vous répondrons rapidement.';
+            formMessage.style.display = 'block';
+            formMessage.style.color = '#4CAF50';
+            formMessage.style.padding = '10px';
+            formMessage.style.marginTop = '15px';
+            formMessage.style.borderRadius = '4px';
+            formMessage.style.backgroundColor = 'rgba(76, 175, 80, 0.1)';
+            formMessage.style.textAlign = 'center';
+            formMessage.style.fontWeight = '500';
+            
+            // Réinitialiser le formulaire
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.reset();
+            }
+            
+            // Nettoyer l'URL
+            window.history.replaceState({}, document.title, window.location.pathname + window.location.hash);
+            
+            // Scroll vers le formulaire pour voir le message
+            setTimeout(() => {
+                formMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 100);
+        }
     }
 }
 
 function highlightActiveNavLink() {
     // Logique simple pour mettre en surbrillance selon l'URL ou le hash
-    // Ici on peut laisser par défaut ou améliorer plus tard
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    navLinks.forEach(link => {
+        if (link.getAttribute('href').includes(currentPage)) {
+            link.style.color = '#FFD700';
+        }
+    });
 }
-
 
 // ============================================
 // CARROUSEL HERO
@@ -187,11 +227,3 @@ function initScrollAnimations() {
 
     cards.forEach(card => observer.observe(card));
 }
-
-// ============================================
-// INITIALISATION
-// ============================================
-document.addEventListener('DOMContentLoaded', () => {
-    initHeroCarousel();
-    initScrollAnimations();
-});

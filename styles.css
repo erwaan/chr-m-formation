@@ -1568,6 +1568,14 @@ body {
     transition-delay: 0.6s;
 }
 
+
+.form-message {
+    display: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+
 /* ============================================
    RESPONSIVE
    ============================================ */
