@@ -33,7 +33,7 @@ const FOOTER_HTML = `
         <div class="footer-content">
             <div class="footer-section">
                 <h3>CHR M Formation</h3>
-                <p>Expert en formation pour les professionnels des Cafés, Hôtels et Restaurants.</p>
+                <p>Formations pour les professionnels des Cafés, Hôtels et Restaurants.</p>
             </div>
             <div class="footer-section">
                 <h3>Liens rapides</h3>
