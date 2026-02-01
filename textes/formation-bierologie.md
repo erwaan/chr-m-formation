@@ -16,7 +16,8 @@
 - Reconnaître les défauts d'une bière
 - Gérer une dégustation professionnelle
 - Une ligne en plus pour tester
-- 
+- enore ici !
+
 ## Modalités de formation
 
 Choisissez la formule qui convient le mieux à vos besoins :
