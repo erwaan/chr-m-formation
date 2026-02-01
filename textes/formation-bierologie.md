@@ -15,7 +15,8 @@
 - Gérer le stockage, le service et la stratégie de commercialisation
 - Reconnaître les défauts d'une bière
 - Gérer une dégustation professionnelle
-
+- Une ligne en plus pour tester
+- 
 ## Modalités de formation
 
 Choisissez la formule qui convient le mieux à vos besoins :
@@ -29,7 +30,7 @@ En salle de formation, en collectif, avec du personnel d'autres établissements.
 ## Programme de la formation
 
 ### Histoire et popularité de la bière
-Découvrez l'univers fascinant de la bière : l'histoire de la bière à travers les civilisations, l'évolution des techniques de brassage, les grandes régions brassicoles mondiales, la renaissance de la bière artisanale et les tendances actuelles du marché.
+Découvrez l'univers fascinant de la bière : l'histoire de la bière à travers les civilisations, l'évolution des techniques de brassage, les grandes régions brassicoles mondiales, la renaissance de la bière artisanale et les tendances actuelles du marché. :)
 
 ### Les ingrédients et l'élaboration
 Maîtrisez les fondamentaux du brassage : les 4 ingrédients de base (eau, malt, houblon, levure), les différents types de malts et leurs impacts, les variétés de houblons et leurs arômes, le rôle des levures dans la fermentation, et les étapes clés du brassage (empâtage, ébullition, fermentation, garde).
