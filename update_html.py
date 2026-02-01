@@ -1,11 +1,42 @@
 #!/usr/bin/env python3
 """
-Script pour mettre à jour un fichier HTML depuis un fichier Markdown.
-Usage: python update_html.py formation-hygiene-alimentaire.md hygiene-alimentaire.html
+Script universel pour mettre à jour les fichiers HTML depuis les fichiers Markdown.
+Usage: python update_all_html.py
 """
 
 import re
 import sys
+import os
+from pathlib import Path
+
+
+# Configuration des paires MD -> HTML
+FORMATIONS = [
+    {
+        'md': 'formation-hygiene-alimentaire.md',
+        'html': 'hygiene-alimentaire.html'
+    },
+    {
+        'md': 'formation-hygiene-alimentaire-rappel.md',
+        'html': 'hygiene-alimentaire-rappel.html'
+    },
+    {
+        'md': 'formation-bierologie.md',
+        'html': 'bierologie.html'
+    },
+    {
+        'md': 'formation-management-chr.md',
+        'html': 'management-chr.html'
+    },
+    {
+        'md': 'formation-permis-de-former.md',
+        'html': 'permis-de-former.html'
+    },
+    {
+        'md': 'formation-permis-de-former-maj.md',
+        'html': 'permis-de-former-maj.html'
+    }
+]
 
 
 def parse_markdown(md_content):
@@ -207,7 +238,7 @@ def update_html(html_content, md_data):
             html_content
         )
     
-    # Financements
+    # Financements (optionnel - peut ne pas exister)
     if md_data['financements']:
         html_content = re.sub(
             r'(<h3>Financements possibles</h3>\s+<div class="info-item">\s+)[^\n<]+',
@@ -253,42 +284,58 @@ def update_html(html_content, md_data):
     return html_content
 
 
-def main():
-    if len(sys.argv) != 3:
-        print("Usage: python update_html.py <fichier.md> <fichier.html>")
-        sys.exit(1)
-    
-    md_file = sys.argv[1]
-    html_file = sys.argv[2]
-    
+def process_formation(md_file, html_file):
+    """Traite une paire MD/HTML."""
     # Lire le Markdown
     try:
         with open(md_file, 'r', encoding='utf-8') as f:
             md_content = f.read()
     except FileNotFoundError:
-        print(f"Erreur: Le fichier {md_file} n'existe pas")
-        sys.exit(1)
+        print(f"⚠️  Fichier {md_file} non trouvé, ignoré")
+        return False
     
     # Lire le HTML
     try:
         with open(html_file, 'r', encoding='utf-8') as f:
             html_content = f.read()
     except FileNotFoundError:
-        print(f"Erreur: Le fichier {html_file} n'existe pas")
-        sys.exit(1)
+        print(f"⚠️  Fichier {html_file} non trouvé, ignoré")
+        return False
     
     # Parser et mettre à jour
-    print("Parsing du Markdown...")
+    print(f"   Parsing {md_file}...")
     md_data = parse_markdown(md_content)
     
-    print("Mise à jour du HTML...")
+    print(f"   Mise à jour {html_file}...")
     updated_html = update_html(html_content, md_data)
     
     # Écrire le résultat
     with open(html_file, 'w', encoding='utf-8') as f:
         f.write(updated_html)
     
-    print(f"✅ Fichier {html_file} mis à jour avec succès!")
+    print(f"   ✅ {html_file} mis à jour")
+    return True
+
+
+def main():
+    """Fonction principale."""
+    print("🚀 Mise à jour des formations HTML depuis Markdown")
+    print("=" * 60)
+    
+    success_count = 0
+    total_count = 0
+    
+    for formation in FORMATIONS:
+        total_count += 1
+        print(f"\n📄 Formation {total_count}/{len(FORMATIONS)}: {formation['md']}")
+        if process_formation(formation['md'], formation['html']):
+            success_count += 1
+    
+    print("\n" + "=" * 60)
+    print(f"✅ Terminé: {success_count}/{total_count} formations mises à jour")
+    
+    if success_count < total_count:
+        sys.exit(1)
 
 
 if __name__ == '__main__':

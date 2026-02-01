@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'formation-hygiene-alimentaire.md'
+      - 'formation-*.md'
 
 jobs:
   update-html:
@@ -20,13 +20,13 @@ jobs:
         with:
           python-version: '3.x'
       
-      - name: Update HTML
-        run: python update_html.py formation-hygiene-alimentaire.md hygiene-alimentaire.html
+      - name: Update all HTML files
+        run: python update_all_html.py
       
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add hygiene-alimentaire.html
+          git add *.html
           git diff --staged --quiet || git commit -m "🤖 Update HTML from Markdown"
           git push
