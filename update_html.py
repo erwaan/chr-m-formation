@@ -14,27 +14,27 @@ from pathlib import Path
 FORMATIONS = [
     {
         'md': 'formation-hygiene-alimentaire.md',
-        'html': 'hygiene-alimentaire.html'
+        'html': 'f1.html'
     },
     {
         'md': 'formation-hygiene-alimentaire-rappel.md',
-        'html': 'hygiene-alimentaire-rappel.html'
-    },
-    {
-        'md': 'formation-bierologie.md',
-        'html': 'bierologie.html'
+        'html': 'f2.html'
     },
     {
         'md': 'formation-management-chr.md',
-        'html': 'management-chr.html'
+        'html': 'f3.html'
+    },
+    {
+        'md': 'formation-bierologie.md',
+        'html': 'f4.html'
     },
     {
         'md': 'formation-permis-de-former.md',
-        'html': 'permis-de-former.html'
+        'html': 'f5.html'
     },
     {
         'md': 'formation-permis-de-former-maj.md',
-        'html': 'permis-de-former-maj.html'
+        'html': 'f6.html'
     }
 ]
 

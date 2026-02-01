@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'formation-*.md'
+      - 'textes/formation-*.md'
 
 jobs:
   update-html:
