@@ -15,13 +15,14 @@
 - Gérer le stockage, le service et la stratégie de commercialisation
 - Reconnaître les défauts d'une bière
 - Gérer une dégustation professionnelle
+- Un exemple de ligne en plus !
 
 ## Modalités de formation
 
 Choisissez la formule qui convient le mieux à vos besoins :
 
 ### Formation Intra-entreprise
-Nous intervenons directement dans votre établissement sur le Finistère. Formation personnalisée selon vos besoins et votre carte. Adaptation complète à votre contexte professionnel.
+Nous intervenons directement dans votre établissement sur le Finistère. Formation personnalisée selon vos besoins et votre carte. Adaptation complète à votre contexte professionnel. :)
 
 ### Formation Inter-entreprise
 En salle de formation, en collectif, avec du personnel d'autres établissements. Échanges enrichissants entre professionnels du secteur.
