@@ -172,25 +172,28 @@ def update_html(html_content, md_data):
     
     # Métadonnées - Titre
     if 'titre' in md_data['metadata']:
+        safe_value = md_data['metadata']['titre'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<h1>)[^<]+(</h1>)',
-            r'\1' + md_data['metadata']['titre'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
     # Métadonnées - Sous-titre
     if 'sous-titre' in md_data['metadata']:
+        safe_value = md_data['metadata']['sous-titre'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<p class="formation-subtitle">)[^<]+(</p>)',
-            r'\1' + md_data['metadata']['sous-titre'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
     # Métadonnées - Description
     if 'description' in md_data['metadata']:
+        safe_value = md_data['metadata']['description'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<p class="formation-description">)[^<]+(</p>)',
-            r'\1' + md_data['metadata']['description'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
@@ -205,44 +208,50 @@ def update_html(html_content, md_data):
     
     # Modalités - Intro
     if md_data['modalites']['intro']:
+        safe_value = md_data['modalites']['intro'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<h2>Modalités de formation</h2>\s+<p class="intro-text">)[^<]+(</p>)',
-            r'\1' + md_data['modalites']['intro'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
     # Modalités - Intra
     if md_data['modalites']['intra']['content']:
+        safe_value = md_data['modalites']['intra']['content'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<div class="option-card">\s+<h3>Formation Intra-entreprise</h3>\s+<p>)[^<]+(</p>)',
-            r'\1' + md_data['modalites']['intra']['content'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
     # Modalités - Inter
     if md_data['modalites']['inter']['content']:
+        safe_value = md_data['modalites']['inter']['content'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<div class="option-card">\s+<h3>Formation Inter-entreprise</h3>\s+<p>)[^<]+(</p>)',
-            r'\1' + md_data['modalites']['inter']['content'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
     # Programme - Chaque accordéon
     for index, item in enumerate(md_data['programme'], start=1):
+        safe_title = item['title'].replace('\\', '\\\\')
+        safe_content = item['content'].replace('\\', '\\\\')
         pattern = re.compile(
             rf'(<!-- Accordéon {index} -->\s+<div class="accordion-item">\s+<div class="accordion-header">\s+<h3>)[^<]+(</h3>[\s\S]*?<div class="accordion-content">\s+<p>)[^<]+(</p>)',
             re.MULTILINE
         )
         html_content = pattern.sub(
-            r'\1' + item['title'] + r'\2' + item['content'] + r'\3',
+            r'\1' + safe_title + r'\2' + safe_content + r'\3',
             html_content
         )
     
     # Financements (optionnel - peut ne pas exister)
     if md_data['financements']:
+        safe_value = md_data['financements'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<h3>Financements possibles</h3>\s+<div class="info-item">\s+)[^\n<]+',
-            r'\1' + md_data['financements'],
+            r'\1' + safe_value,
             html_content
         )
     
@@ -260,24 +269,28 @@ def update_html(html_content, md_data):
             pattern = re.compile(
                 rf'(<span class="info-label">{re.escape(label)}</span>\s+<span class="info-value">)[^<]+(</span>)'
             )
+            # Échapper les backslashes dans la valeur de remplacement
+            safe_value = md_data['infos'][key].replace('\\', '\\\\')
             html_content = pattern.sub(
-                r'\1' + md_data['infos'][key] + r'\2',
+                r'\1' + safe_value + r'\2',
                 html_content
             )
     
     # CTA - Titre
     if md_data['cta']['title']:
+        safe_value = md_data['cta']['title'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<div class="cta-card">\s+<h3>)[^<]+(</h3>)',
-            r'\1' + md_data['cta']['title'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
     # CTA - Message
     if md_data['cta']['message']:
+        safe_value = md_data['cta']['message'].replace('\\', '\\\\')
         html_content = re.sub(
             r'(<div class="cta-card">[\s\S]*?<h3>.*?</h3>\s+<p>)[^<]+(</p>)',
-            r'\1' + md_data['cta']['message'] + r'\2',
+            r'\1' + safe_value + r'\2',
             html_content
         )
     
