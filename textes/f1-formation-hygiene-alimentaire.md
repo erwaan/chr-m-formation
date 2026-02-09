@@ -13,6 +13,7 @@
 - Appliquer et faire appliquer ces règles au quotidien
 - Mettre en place un PMS (Plan de Maîtrise Sanitaire) adapté à votre activité
 - Valider vos acquis de formation via un QCM en vue de la certification
+- Un exemple de ligne en plus !!
 
 ## Modalités de formation
 

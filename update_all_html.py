@@ -13,27 +13,27 @@ from pathlib import Path
 # Configuration des paires MD -> HTML
 FORMATIONS = [
     {
-        'md': 'textes/formation-hygiene-alimentaire.md',
+        'md': 'textes/f1-formation-hygiene-alimentaire.md',
         'html': 'f1.html'
     },
     {
-        'md': 'textes/formation-hygiene-alimentaire-rappel.md',
+        'md': 'textes/f2-formation-hygiene-alimentaire-rappel.md',
         'html': 'f2.html'
     },
     {
-        'md': 'textes/formation-management-chr.md',
+        'md': 'textes/f3-formation-management-chr.md',
         'html': 'f3.html'
     },
     {
-        'md': 'textes/formation-bierologie.md',
+        'md': 'textes/f4-formation-bierologie.md',
         'html': 'f4.html'
     },
     {
-        'md': 'textes/formation-permis-de-former.md',
+        'md': 'textes/f5-formation-permis-de-former.md',
         'html': 'f5.html'
     },
     {
-        'md': 'textes/formation-permis-de-former-maj.md',
+        'md': 'textes/f6-formation-permis-de-former-maj.md',
         'html': 'f6.html'
     }
 ]
