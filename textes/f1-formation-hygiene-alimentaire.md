@@ -14,7 +14,7 @@
 - Mettre en place un PMS (Plan de Maîtrise Sanitaire) adapté à votre activité
 - Valider vos acquis de formation via un QCM en vue de la certification
 - Un exemple de ligne en plus !!
-- Un exemple de ligne en plus !! 2
+- Un exemple de ligne en plus !! encore iciiiii
 
 ## Modalités de formation
 
