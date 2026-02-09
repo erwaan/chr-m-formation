@@ -15,8 +15,6 @@
 - Gérer le stockage, le service et la stratégie de commercialisation
 - Reconnaître les défauts d'une bière
 - Gérer une dégustation professionnelle
-- Une ligne en plus pour tester
-- enore ici !
 
 ## Modalités de formation
 
