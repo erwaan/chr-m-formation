@@ -1,7 +1,7 @@
 # Formation Hygiène Alimentaire - Initiale
 
 ## Métadonnées
-- **Titre**: HYGIENE ALIMENTAIRE - INITIALE
+- **Titre**: HYGIENE ALIMENTAIRE  INITIALE
 - **Sous-titre**: Formation initiale en Hygiène Alimentaire (2 jours)
 - **Description**: Adaptée aux établissements de la restauration commerciale et aux collectivités
 
