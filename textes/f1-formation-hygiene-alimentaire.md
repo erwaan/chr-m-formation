@@ -2,7 +2,7 @@
 
 ## Métadonnées
 - **Titre**: HYGIENE ALIMENTAIRE - formation INITIALE
-- **Sous-titre**: Formation Hygiène Alimentaire   (2 jours)
+- **Sous-titre**: Formation Hygiène Alimentaire     (2 jours)
 - **Description**: Adaptée aux établissements de la restauration commerciale et aux collectivités
 
 ## Objectifs de la formation
