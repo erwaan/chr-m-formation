@@ -55,7 +55,7 @@ Construire votre feuille de route managériale : bilan de vos pratiques actuelle
 - **Public concerné**: Managers, gérants, chefs de cuisine, maîtres d'hôtel, responsables de salle
 - **Prérequis**: Aucun prérequis nécessaire
 - **Tarif**: Sur devis - Financement possible
-- **Lieu**: Finistère (intra) ou salle de formation (inter)
+- **Lieu**: Finistère, en entreprise (intra) ou salle de formation (inter)
 
 ## CTA Contact
 
