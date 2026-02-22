@@ -19,7 +19,7 @@
 Choisissez la formule qui convient le mieux à vos besoins :
 
 ### Formation Intra-entreprise
-Nous intervenons directement dans votre établissement sur le Finistère. Formation personnalisée et adaptée à votre contexte professionnel.
+Nous intervenons directement dans votre établissement en Bretagne. Formation personnalisée et adaptée à votre contexte professionnel.
 
 ### Formation Inter-entreprise
 En salle de formation, en collectif, avec du personnel d'autres établissements. Enrichissement par l'échange de pratiques.
@@ -30,7 +30,7 @@ En salle de formation, en collectif, avec du personnel d'autres établissements.
 Comprendre les différents types de contrats d'alternance (contrat d'apprentissage, contrat de professionnalisation), les obligations légales du tuteur et de l'employeur, les droits et devoirs de l'alternant, et le rôle des différents acteurs (CFA, OPCO, entreprise).
 
 ### Accueillir et intégrer un alternant
-Préparer l'arrivée de l'alternant, organiser l'accueil et la première journée, présenter l'établissement et l'équipe, définir les objectifs et le parcours de formation, mettre en place un parcours d'intégration efficace adapté au secteur CHR.
+Mettre en place le Onboarding; préparer l'arrivée de l'alternant, organiser l'accueil et la première journée, présenter l'établissement et l'équipe, définir les objectifs et le parcours de formation, mettre en place un parcours d'intégration efficace adapté au secteur CHR.
 
 ### La pédagogie de l'alternance
 Comprendre les principes de l'apprentissage par la pratique, transmettre les savoir-faire professionnels, adapter sa pédagogie au niveau et au profil de l'alternant, évaluer les compétences acquises, faire le lien entre formation théorique et pratique professionnelle.
@@ -50,7 +50,7 @@ Mettre en place des outils de suivi adaptés, organiser des points d'étape rég
 - **Public concerné**: Managers, gérants, futurs tuteurs ou maîtres d'apprentissage
 - **Prérequis**: Niveau équivalent au poste + 2 ans d'expérience minimum
 - **Tarif**: Sur devis - Financement possible
-- **Lieu**: Finistère (intra) ou salle de formation (inter)
+- **Lieu**: Bretagne (intra) ou salle de formation (inter)
 
 ## CTA Contact
 
