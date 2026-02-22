@@ -1,9 +1,9 @@
-# Formation Hygiène Alimentaire - Rappel
+# Formation Hygiène Alimentaire - Mise à jour / Rappel
 
 ## Métadonnées
 - **Titre**: HYGIÈNE ALIMENTAIRE - RAPPEL
-- **Sous-titre**: Formation mise à jour/rappel en matière d'Hygiène Alimentaire (1 jour)
-- **Description**: Adaptée aux établissements de la restauration commerciale et aux collectivités
+- **Sous-titre**: Formation mise à jour/rappel en matière d'Hygiène Alimentaire      (1 jour)
+- **Description**: Adaptée aux professionnels des métiers de bouche
 
 ## Objectifs de la formation
 
@@ -27,7 +27,7 @@ En salle de formation, en collectif, avec du personnel d'autres établissements.
 ## Programme de la formation
 
 ### Rappel des fondamentaux de l'hygiène alimentaire
-Révision des principes essentiels de l'hygiène alimentaire et des dangers microbiologiques, chimiques et physiques. Mise à jour des connaissances sur les enjeux sanitaires et réglementaires.
+Révision des principes essentiels de l'hygiène alimentaire et des dangers microbiologiques, chimiques et physiques. Affichage des allergènes et intolérences. Mise à jour des connaissances sur les enjeux sanitaires et réglementaires.
 
 ### La méthode HACCP - Mise à jour
 Mise à jour des connaissances sur la démarche HACCP (Hazard Analysis Critical Control Point) et son application pratique dans votre établissement. Révision des points critiques et des mesures préventives.
@@ -41,7 +41,7 @@ Validation des acquis par un QCM final. Délivrance d'une attestation de formati
 ## Informations pratiques
 
 - **Durée**: 7 heures (1 jour)
-- **Public concerné**: Professionnels des métiers de la restauration (CHR)
+- **Public concerné**: Professionnels des métiers de bouche
 - **Prérequis**: Aucun prérequis nécessaire
 - **Tarif**: Sur devis - Financement possible
 - **Lieu**: Finistère (intra) ou salle de formation (inter)
