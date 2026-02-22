@@ -21,7 +21,7 @@
 Choisissez la formule qui convient le mieux à vos besoins :
 
 ### Formation Intra-entreprise
-Nous intervenons directement dans votre établissement sur le Finistère. Formation personnalisée selon vos besoins et votre carte. Adaptation complète à votre contexte professionnel.
+Nous intervenons directement dans votre établissement en Bretagne. Formation personnalisée selon vos besoins et votre carte. Adaptation complète à votre contexte professionnel.
 
 ### Formation Inter-entreprise
 En salle de formation, en collectif, avec du personnel d'autres établissements. Échanges enrichissants entre professionnels du secteur.
@@ -29,30 +29,30 @@ En salle de formation, en collectif, avec du personnel d'autres établissements.
 ## Programme de la formation
 
 ### Histoire et popularité de la bière
-Découvrez l'univers fascinant de la bière : l'histoire de la bière à travers les civilisations, l'évolution des techniques de brassage, les grandes régions brassicoles mondiales, la renaissance de la bière artisanale et les tendances actuelles du marché. :)
+Découvrez l'univers fascinant de la bière : l'histoire de la bière à travers les civilisations, l'évolution des techniques de brassage, les grandes régions brassicoles mondiales, la renaissance de la bière artisanale et les tendances actuelles du marché. 
 
 ### Les ingrédients et l'élaboration
-Maîtrisez les fondamentaux du brassage : les 4 ingrédients de base (eau, malt, houblon, levure), les différents types de malts et leurs impacts, les variétés de houblons et leurs arômes, le rôle des levures dans la fermentation, et les étapes clés du brassage (empâtage, ébullition, fermentation, garde).
+Maîtrisez les fondamentaux du brassage : les 4 ingrédients de base (eau, malt, houblon, levure), les étapes clés du brassage (empâtage, ébullition, fermentation, garde), les différents types de malts et leurs impacts, les variétés de houblons et leurs arômes, le rôle des levures dans la fermentation.
 
 ### Les styles de bières et accords mets
-Explorez la diversité des styles : les grandes familles (Lagers, Ales, bières de fermentation spontanée), les styles emblématiques (IPA, Stout, Blanche, Saison, Lambic...), les caractéristiques organoleptiques de chaque style, l'art des accords bières et mets, et comment créer une carte des bières cohérente et attractive.
+Explorez la diversité des styles : les grandes familles (Lagers, Ales, bières de fermentation spontanée), les styles emblématiques (IPA, Stout, Blanche, Saison, Lambic...), les caractéristiques organoleptiques de chaque style, l'art des accords bières et mets et comment créer une carte des bières cohérente et attractive.
 
 ### Stockage, service et commercialisation
 Optimisez votre gestion professionnelle : conditions optimales de stockage (température, lumière, position), gestion des dates de péremption et rotation des stocks, techniques de service selon les styles (température, verre, col de mousse), la verrerie adaptée à chaque style, stratégies de mise en valeur sur votre carte, et argumentaire de vente.
 
 ### Reconnaître les défauts
-Identifiez et prévenez les défauts : les principaux défauts (oxydation, infection, lumière, bouchon...), reconnaître les arômes et saveurs indésirables, comprendre les causes de ces défauts, prévenir les problèmes de conservation, et gérer les retours clients.
+Identifiez les principaux défauts (oxydation, infection, lumière, bouchon...), reconnaître les arômes et saveurs indésirables, comprendre les causes de ces défauts, prévenir les problèmes de conservation, et gérer les retours clients.
 
 ### La dégustation professionnelle
-Maîtrisez l'art de la dégustation : la méthodologie de dégustation en 4 étapes, l'analyse visuelle (robe, mousse, clarté), l'analyse olfactive (arômes primaires, secondaires, tertiaires), l'analyse gustative (saveurs, texture, longueur), le vocabulaire du dégustateur, et comment animer une dégustation pour vos clients. Dégustation pratique de plusieurs styles incluse.
+Maîtrisez la méthodologie de dégustation et le vocabulaire du dégustateur; l'analyse visuelle (robe, mousse, clarté), l'analyse olfactive (arômes primaires, secondaires, tertiaires), l'analyse gustative (saveurs, texture, longueur). Apprenez à animer une dégustation pour vos clients. Possibilité de dégustation pratique de plusieurs styles de bières avec ou sans des accords de mets.
 
 ## Informations pratiques
 
-- **Durée**: 7 heures (1 journée)
+- **Durée**: 7 heures (1 jour)
 - **Public concerné**: Professionnels des bars, restaurants, cavistes, gérants d'établissements
 - **Prérequis**: Aucun prérequis nécessaire
 - **Tarif**: Sur devis - Financement possible
-- **Lieu**: Finistère (intra) ou salle de formation (inter)
+- **Lieu**: Bretagne (intra) ou salle de formation (inter)
 
 ## CTA Contact
 
