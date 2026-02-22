@@ -24,7 +24,7 @@ Choisissez la formule qui convient le mieux à vos besoins :
 Nous intervenons directement dans votre établissement en Bretagne. Formation personnalisée selon vos besoins et votre carte. Adaptation complète à votre contexte professionnel.
 
 ### Formation Inter-entreprise
-En salle de formation, en collectif, avec du personnel d'autres établissements. Échanges enrichissants entre professionnels du secteur.
+En Bretagne, salle de formation, en collectif, avec du personnel d'autres établissements. Échanges enrichissants entre professionnels du secteur.
 
 ## Programme de la formation
 
@@ -52,7 +52,7 @@ Maîtrisez la méthodologie de dégustation et le vocabulaire du dégustateur; l
 - **Public concerné**: Professionnels des bars, restaurants, cavistes, gérants d'établissements
 - **Prérequis**: Aucun prérequis nécessaire
 - **Tarif**: Sur devis - Financement possible
-- **Lieu**: Bretagne (intra) ou salle de formation (inter)
+- **Lieu**: Bretagne, en entreprise (intra) ou salle de formation (inter)
 
 ## CTA Contact
 
