@@ -2,7 +2,7 @@
 
 ## Métadonnées
 - **Titre**: HYGIENE ALIMENTAIRE - formation INITIALE
-- **Sous-titre**: Formation Hygiène Alimentaire (2 jours)
+- **Sous-titre**: Formation Hygiène Alimentaire   (2 jours)
 - **Description**: Adaptée aux établissements de la restauration commerciale et aux collectivités
 
 ## Objectifs de la formation
@@ -44,7 +44,7 @@ Financement possible par ...
 
 ## Informations pratiques
 
-- **Durée**: 14 heures (2 jours)
+- **Durée**:  14 heures (2 jours)
 - **Public concerné**: Professionnels des métiers de la restauration(CHR) et des commerces alimentaires
 - **Prérequis**: Aucun prérequis nécessaire
 - **Tarif**: Sur devis - Financement possible
