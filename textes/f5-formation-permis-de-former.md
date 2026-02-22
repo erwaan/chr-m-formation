@@ -22,7 +22,7 @@ Choisissez la formule qui convient le mieux à vos besoins :
 Nous intervenons directement dans votre établissement en Bretagne. Formation personnalisée et adaptée à votre contexte professionnel.
 
 ### Formation Inter-entreprise
-En salle de formation, en collectif, avec du personnel d'autres établissements. Enrichissement par l'échange de pratiques.
+En Bretagne, salle de formation, en collectif, avec du personnel d'autres établissements. Enrichissement par l'échange de pratiques.
 
 ## Programme de la formation
 
@@ -50,7 +50,7 @@ Mettre en place des outils de suivi adaptés, organiser des points d'étape rég
 - **Public concerné**: Managers, gérants, futurs tuteurs ou maîtres d'apprentissage
 - **Prérequis**: Niveau équivalent au poste + 2 ans d'expérience minimum
 - **Tarif**: Sur devis - Financement possible
-- **Lieu**: Bretagne (intra) ou salle de formation (inter)
+- **Lieu**: Bretagne, en entreprise (intra) ou salle de formation (inter)
 
 ## CTA Contact
 
