@@ -1,8 +1,8 @@
 # Formation Hygiène Alimentaire - Initiale
 
 ## Métadonnées
-- **Titre**: HYGIENE ALIMENTAIRE  INITIALE
-- **Sous-titre**: Formation initiale en Hygiène Alimentaire (2 jours)
+- **Titre**: HYGIENE ALIMENTAIRE - formation INITIALE
+- **Sous-titre**: Formation Hygiène Alimentaire (2 jours)
 - **Description**: Adaptée aux établissements de la restauration commerciale et aux collectivités
 
 ## Objectifs de la formation
@@ -27,7 +27,7 @@ En salle de formation, en collectif, avec du personnel d'autres établissements.
 ## Programme de la formation
 
 ### Les fondamentaux de l'hygiène alimentaire
-Introduction aux principes de base de l'hygiène, identification des dangers microbiologiques, chimiques et physiques. Compréhension des enjeux sanitaires et réglementaires.
+Introduction aux principes de base de l'hygiène, identification des dangers microbiologiques, chimiques et physiques. Affichage des allergènes et intolérences. Compréhension des enjeux sanitaires et réglementaires.
 
 ### La méthode HACCP
 Apprentissage et application pratique de la démarche HACCP (Hazard Analysis Critical Control Point) adaptée à votre établissement. Identification des points critiques et mise en place des mesures préventives.
@@ -45,7 +45,7 @@ Financement possible par ...
 ## Informations pratiques
 
 - **Durée**: 14 heures (2 jours)
-- **Public concerné**: Professionnels des métiers de la restauration (CHR)
+- **Public concerné**: Professionnels des métiers de la restauration(CHR) et des commerces alimentaires
 - **Prérequis**: Aucun prérequis nécessaire
 - **Tarif**: Sur devis - Financement possible
 - **Lieu**: Finistère (intra) ou salle de formation (inter)
