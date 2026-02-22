@@ -19,7 +19,7 @@
 Choisissez la formule qui convient le mieux à vos besoins :
 
 ### Formation Intra-entreprise
-Nous intervenons directement dans votre établissement sur le Finistère. Formation personnalisée et adaptée à votre contexte professionnel.
+Nous intervenons directement dans votre établissement en Bretagne. Formation personnalisée et adaptée à votre contexte professionnel.
 
 ### Formation Inter-entreprise
 En salle de formation, en collectif, avec du personnel d'autres établissements. Enrichissement par l'échange de pratiques.
