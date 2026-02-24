@@ -45,7 +45,19 @@ const FOOTER_HTML = `
                 </ul>
             </div>
             <div class="footer-section">
-                <h3>Contact</h3>
+            <h3>Remerciements</h3>
+                <p>Photos: Loïc Boisard, Chez Coco, CLPS Brest</p>
+                <p>Site internet: Erwan Boisard</p>
+            </div>
+            <div class="footer-section">
+            <h3>Partenaires certifiés Qualiopi</h3>
+                <p>UMIH formation (AKTIVEO)</p>
+                <p>Ouest Formation Entreprise</p>
+                <p>LC formation Bretagne</p>
+                <p>CLPS Brest/ Entreprises</p>
+            </div>
+            <div class="footer-section">
+            <h3>Contact</h3>
                 <p>📧 chr.m.formation@gmail.com</p>
                 <p>📍 Finistère (29), Bretagne</p>
             </div>
