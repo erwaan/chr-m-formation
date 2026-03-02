@@ -10,6 +10,9 @@ const HEADER_HTML = `
         <a href="index.html" class="logo">
             <img src="images/logo-chr.jpg" alt="CHR M Formation" class="logo-img">
         </a>
+        <a href="index.html" class="logo">
+            <img src="images/line.png" class="logo-img">
+        </a>
         <ul class="nav-menu">
             <li><a href="index.html#accueil" class="nav-link">Accueil</a></li>
             <li><a href="index.html#presentation" class="nav-link">Présentation</a></li>
