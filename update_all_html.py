@@ -35,6 +35,14 @@ FORMATIONS = [
     {
         'md': 'textes/f6-formation-permis-de-former-maj.md',
         'html': 'f6.html'
+    },
+    {
+        'md': 'textes/tb1-team-building-bistrologie.md',
+        'html': 'tb1.html'
+    },
+    {
+        'md': 'textes/tb2-team-building-2.md',
+        'html': 'tb2.html'
     }
 ]
 
