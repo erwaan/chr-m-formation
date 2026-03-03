@@ -41,7 +41,7 @@ Remise des récompenses aux vainqueurs des défis. Débriefing et partage des d�
 
 ## Informations pratiques
 - **Durée**: 2 à 4 heures (modulable)
-- **Public concerné**: Équipes CHR, entreprises tous secteurs, comités d'entreprise
+- **Public concerné**: Équipes CHR, Comités d'entreprise tous secteurs d'activité
 - **Prérequis**: Public majeur uniquement
 - **Tarif**: Sur devis personnalisé
 - **Lieu**: Votre entreprise ou extérieur
