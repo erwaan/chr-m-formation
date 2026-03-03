@@ -11,7 +11,7 @@ Cette expérience permet de :
 - Créer des moments de partage et d'échange dans une ambiance conviviale.
 - Valoriser et motiver vos équipes par une activité originale et mémorable.
 
-## Modalités de formation
+## Modalités du Team Building
 Choisissez la formule qui convient le mieux à vos besoins :
 
 ### Dans votre entreprise
