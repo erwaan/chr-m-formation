@@ -20,7 +20,7 @@ Nous venons directement chez vous avec le matériel nécessaire. Installation ra
 ### En extérieur
 Location de salle de séminaire, bar ou espace privatisé. Cadre original et dépaysant dans une ambiance afterwork authentique. Nous pouvons nous occuper de la réservation.
 
-## Programme de la formation
+## Programme du Team Building
 
 ### Accueil et immersion dans l'univers des bistrots.
 Mot d'accueil et présentation de la session. Introduction à l'histoire des bistrots. Constitution d'équipes pour des challenges ludiques. "Bistrot Quizz" décalé et décontracté pour créer une dynamique de groupe.
@@ -37,7 +37,7 @@ Mini-atelier sensoriel de reconnaissance à l'aveugle, de différents types de b
 ### Clôture et convivialité.
 Remise des récompenses aux vainqueurs des défis. Débriefing et partage des découvertes de la session. Moment d'échange libre et convivial entre participants.
 
-## Financements possibles
+## Financements (à determiner)
 
 ## Informations pratiques
 - **Durée**: 2 à 4 heures (modulable)
