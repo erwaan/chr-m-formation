@@ -26,7 +26,7 @@ Location de salle de séminaire, bar ou espace privatisé. Cadre original et dé
 Mot d'accueil et présentation de la session. Introduction à l'histoire des bistrots. Constitution d'équipes pour des challenges ludiques. "Bistrot Quizz" décalé et décontracté pour créer une dynamique de groupe.
 
 ### Jeux et défis d'équipe autour des métiers de bistrot.
-Imaginez et créez la présentation de menu sur l'ardoise, la plus alléchante. Challenge créatif pour imaginer la plus belle planche apéro. Exercices d'agilité avec courses de dressage de tables, débarrassage au plateau, prise et envoi de commandes. 
+Imaginez et créez la présentation de menu sur ardoise, la plus alléchante. Challenge créatif pour imaginer la plus belle planche apéro. Exercices d'agilité avec courses de dressage de tables, débarrassage au plateau, prise et envoi de commandes. 
 
 ### Dégustation des produits essentiels au bistrot.
 Mini-atelier sensoriel de reconnaissance à l'aveugle, de différents types de bières, vins, et différents mets. Consommation responsable et échanges autour de "brêves de comptoir".
