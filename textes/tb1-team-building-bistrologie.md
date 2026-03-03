@@ -3,7 +3,7 @@
 - **Sous-titre**: Un afterwork convivial et enrichissant pour renforcer la cohésion d'équipe.
 - **Description**: Alliant culture, dégustation responsable et activités collaboratives autour de l'esprit bistrot.
 
-## Objectifs de la formation
+## Objectifs du Team Building
 Cette expérience permet de :
 - Renforcer la cohésion d'équipe à travers des activités ludiques et collaboratives.
 - Découvrir l'histoire des bistrots à travers les pays et les périodes.
