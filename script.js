@@ -3,6 +3,7 @@
 // ==========================================
 // COMPOSANTS HTML (Header & Footer)
 // ==========================================
+            // <li><a href="index.html#actualites" class="nav-link">Actualités</a></li>
 
 const HEADER_HTML = `
 <nav class="navbar">
@@ -18,7 +19,6 @@ const HEADER_HTML = `
             <li><a href="index.html#presentation" class="nav-link">Présentation</a></li>
             <li><a href="index.html#formations" class="nav-link">Formations</a></li>
             <li><a href="index.html#team-building" class="nav-link">Team Building</a></li>
-            <li><a href="index.html#actualites" class="nav-link">Actualités</a></li>
             <li><a href="index.html#contact" class="nav-link">Contact</a></li>
         </ul>
         <div class="burger">
