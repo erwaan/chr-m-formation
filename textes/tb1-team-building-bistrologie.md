@@ -22,16 +22,16 @@ Location de salle de séminaire, bar ou espace privatisé. Cadre original et dé
 
 ## Programme du Team Building
 
-### Accueil et immersion dans l'univers des bistrots.
+### Accueil et immersion dans l'univers des troquets-estaminets.
 Mot d'accueil et présentation de la session. Introduction à l'histoire des bistrots. Constitution d'équipes pour des challenges ludiques. "Bistrot Quizz" décalé et décontracté pour créer une dynamique de groupe.
 
-### Jeux et défis d'équipe autour des métiers de bistrot.
+### Jeux et défis d'équipe autour des métiers des brasseries-restaurants.
 Imaginez et créez la présentation de menu sur ardoise, la plus alléchante. Challenge créatif pour imaginer la plus belle planche apéro. Exercices d'agilité avec courses de dressage de tables, débarrassage au plateau, prise et envoi de commandes. 
 
-### Dégustation des produits essentiels au bistrot.
+### Dégustation des produits essentiels aux cafés-terrasses.
 Mini-atelier sensoriel de reconnaissance à l'aveugle, de différents types de bières, vins, et différents mets. Consommation responsable et échanges autour de "brêves de comptoir".
 
-### Immersion dans l'ambiance festive des bistrots.
+### Immersion dans l'ambiance festive des bars-guinguettes.
 "Blind test Musical" pour partager l'esprit guinguette et concert des bistrots. Faites parler vos connaissances en matière de chanson française, de reaggeton, de folk celtic, de funk ... Irez-vous jusqu'à un déhanchement latino, une démonstration de valse ou de rock, pour faire gagner des points à votre équipe ? 
 
 ### Clôture et convivialité.
