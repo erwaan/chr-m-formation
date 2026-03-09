@@ -15,7 +15,7 @@ Cette expérience permet de :
 Choisissez la formule qui convient le mieux à vos besoins :
 
 ### Dans votre entreprise
-Nous venons directement chez vous avec le matériel nécessaire. Installation rapide et confort pour vos équipes sans déplacement. Intervention sur tout le Finistère.
+Nous venons directement chez vous avec le matériel nécessaire. Installation rapide et confort pour vos équipes sans déplacement. Intervention dans tout le Finistère.
 
 ### En extérieur
 Location de salle de séminaire, bar ou espace privatisé. Cadre original et dépaysant dans une ambiance afterwork authentique. Nous pouvons nous occuper de la réservation.
