@@ -1,11 +1,11 @@
 ## Métadonnées
-- **Titre**: ANIMATION "Ambiance Muzik Box"
-- **Sous-titre**: Un moment de partage, esprit convivial et festif. 
-- **Description**: Une animation en musique dans l'esprit bal musette, version comtemporaine !
+- **Titre**: 
+- **Sous-titre**:
+- **Description**: 
 
 
-## Modalités de l'animation "Ambiance Muzik Box"
-Choisissez la formule qui convient le mieux à vos besoins :
+## Modalités de l'animation 
+
 
 ### Animation afterwork Intra-entreprise
 Nous venons directement dans votre entreprise. adaptation à vos fins de réunions, installation rapide. Intervention sur tout le Finistère.
@@ -26,7 +26,7 @@ Pour l'animation de vos réunions, vos compétitions, vos rassemblements, en int
 ## CTA Contact
 
 ### Titre
-Organisez votre animation "Ambiance Muzik Box"
+
 
 ### Message
 Contactez-nous pour créer ensemble une animation sur-mesure.
