@@ -1,5 +1,5 @@
 ## Métadonnées
-- **Titre**: TEAM BUILDING BISTROLOGIE
+- **Titre**: TEAM BUILDING BISTROLOGIE 
 - **Sous-titre**: Un afterwork convivial et enrichissant pour renforcer la cohésion d'équipe.
 - **Description**: Alliant culture, dégustation responsable et activités collaboratives autour de l'esprit bistrot.
 
@@ -15,7 +15,7 @@ Cette expérience permet de :
 Choisissez la formule qui convient le mieux à vos besoins :
 
 ### Dans votre entreprise
-Nous venons directement chez vous avec le matériel nécessaire. Installation rapide et confort pour vos équipes sans déplacement. Intervention dans tout le Finistère.
+Dans votre établissement, avec votre matériel. Installation rapide et confort pour vos équipes sans déplacement. Intervention dans tout le Finistère.
 
 ### En extérieur
 Location de salle de séminaire, bar ou espace privatisé. Cadre original et dépaysant dans une ambiance afterwork authentique. Nous pouvons nous occuper de la réservation.
@@ -41,7 +41,7 @@ Remise des récompenses aux vainqueurs des défis. Débriefing et partage des d�
 
 ## Informations pratiques
 - **Durée**: 2 à 4 heures (modulable)
-- **Public concerné**: Équipes CHR, Comités d'entreprise tous secteurs d'activité
+- **Public concerné**: Équipes CHR
 - **Prérequis**: Public majeur uniquement
 - **Tarif**: Sur devis personnalisé
 - **Lieu**: Votre entreprise ou extérieur
