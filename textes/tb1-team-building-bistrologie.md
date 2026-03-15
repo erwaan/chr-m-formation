@@ -1,5 +1,5 @@
 ## Métadonnées
-- **Titre**: TEAM BUILDING BISTROLOGIE 
+- **Titre**: TEAM BUILDING BISTROLOGIE (Prochainement 😉! En préparation ...)
 - **Sous-titre**: Un afterwork convivial et enrichissant pour renforcer la cohésion d'équipe.
 - **Description**: Alliant culture, dégustation responsable et activités collaboratives autour de l'esprit bistrot.
 
